@@ -15,6 +15,20 @@
   .bg-clr {
     background-color: #f5f8ff;
   }
+  .bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .bg-img-1 {
+    background-image: url(../assets/deals/deal-ana.png);
+  }
+  .bg-img-2 {
+    background-image: url(../assets/deals/deal-bloom.png);
+  }
+  .bg-img-3 {
+    background-image: url(../assets/deals/deal-zabo.png);
+  }
 }
 
 @layer component {
@@ -30,18 +44,22 @@
 /* *COMMON STYLE START */
 header,
 .hero-contents,
-.ourplants {
+.ourplants,
+.trustedseller {
   padding: 0 16px;
 }
 @media (min-width: 640px) {
-  header {
+  header,
+  .hero-contents,
+  .ourplants,
+  .trustedseller {
     padding: 0;
   }
 }
 @media (min-width: 768px) {
   .hero-contents {
-  padding: 0;
-}
+    padding: 0;
+  }
 }
 .containers {
   margin: 0 auto;
@@ -100,3 +118,8 @@ header .navbar .cart {
 }
 /* *HEADER END */
 
+/* *LATEST DEALS START */
+.latestdeals div, img {
+  border-radius: 14px;
+}
+/* *LATEST DEALS END */
