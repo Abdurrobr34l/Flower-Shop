@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+@layer utilities {
+  .font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .font-noto-serif {
+    font-family: "Noto Serif", serif;
+  }
+  .bg-clr {
+    background-color: #f5f8ff;
+  }
+}
+header {
+  padding-inline: 16px;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  border: 1px solid;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.active {
+  font-weight: 400;
+  color: #252432;
+}
+
+h1,
+h2,
+span {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: #000000;
+}
+p {
+  color: rgba(0, 0, 0, 0.5);
+}
+a {
+  color: #6b7280;
+  transition: color 0.33s linear, font-weight 0.23s linear;
+}
+a:hover {
+  font-weight: 700;
+  color: #252432;
+}
+span {
+  color: #e95a08;
+}
+
