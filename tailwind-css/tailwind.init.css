@@ -16,8 +16,19 @@
     background-color: #f5f8ff;
   }
 }
-header {
+header,
+.hero-contents {
   padding: 0 16px;
+}
+@media (min-width: 640px) {
+  header {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .hero-contents {
+  padding: 0;
+}
 }
 .containers {
   margin: 0 auto;
@@ -63,7 +74,10 @@ header .navbar .cart {
   width: 20px;
   height: 22px;
 }
-.shopping-cart a{
+.shopping-cart a {
   color: #000000;
 }
 /* *HEADER END */
+
+/* *HERO START */
+/* *HERO END */
