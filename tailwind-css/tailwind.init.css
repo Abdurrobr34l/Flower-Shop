@@ -40,6 +40,7 @@
 header,
 .hero-contents,
 .ourplants,
+.trustedseller,
 .latestdeals,
 .footer {
   padding: 0 16px;
@@ -48,6 +49,7 @@ header,
   header,
   .hero-contents,
   .ourplants,
+  .trustedseller,
   .latestdeals,
   .footer {
     padding: 0;
@@ -67,7 +69,7 @@ header,
 
 img {
   width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 .active {
@@ -90,7 +92,7 @@ h3 {
   color: #000000;
 }
 p {
-  color: rgba(0, 0, 0, 0.5);
+  color: #00000080;
 }
 .text-p-black {
   color: rgba(0, 0, 0) !important;
@@ -117,6 +119,19 @@ header .navbar .cart {
   color: #000000;
 }
 /* *HEADER END */
+
+/* *TRUSTED SELLER START */
+.trusted-image .badge {
+  width: 150px;
+  height: 150px;
+}
+@media (min-width: 1280px) {
+.trusted-image .badge {
+  width: 200px;
+  height: 200px;
+}
+}
+/* *TRUSTED SELLER END */
 
 /* *FOOTER START */
 .footer-logo {
