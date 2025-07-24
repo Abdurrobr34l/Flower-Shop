@@ -40,14 +40,16 @@
 header,
 .hero-contents,
 .ourplants,
-.latestdeals {
+.latestdeals,
+.footer {
   padding: 0 16px;
 }
 @media (min-width: 640px) {
   header,
   .hero-contents,
   .ourplants,
-  .latestdeals {
+  .latestdeals,
+  .footer {
     padding: 0;
   }
 }
@@ -116,6 +118,9 @@ header .navbar .cart {
 }
 /* *HEADER END */
 
-/* *LATEST DEALS START */
-
-/* *LATEST DEALS END */
+/* *FOOTER START */
+.footer-logo {
+  width: 180px;
+  height: 109px;
+}
+/* *FOOTER END */
