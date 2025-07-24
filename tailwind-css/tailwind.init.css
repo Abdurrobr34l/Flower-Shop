@@ -15,20 +15,15 @@
   .bg-clr {
     background-color: #f5f8ff;
   }
-  /* .bg-img {
+  .bg-img-style {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    background-size: cover;
   }
-  .bg-img-1 {
-    background-image: url(../assets/deals/image-ana.png);
+  .cta-bg {
+    background-image: url(../assets/cta/news-letter-bg.png);
   }
-  .bg-img-2 {
-    background-image: url(../assets/deals/image-blooom.png);
-  }
-  .bg-img-3 {
-    background-image: url(../assets/deals/image-zoba.png);
-  } */
 }
 
 @layer component {
@@ -84,6 +79,9 @@ span {
   font-family: "Noto Serif", serif;
   font-weight: 700;
   color: #000000;
+}
+.cta-h2 {
+  color: #ffffff;
 }
 h3 {
   font-weight: 500;
