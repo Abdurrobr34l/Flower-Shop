@@ -34,6 +34,13 @@
     background-color: #e95a08;
     color: #ffffff;
   }
+  .btn, .ctabtn {
+    transition: background-color 0.33s linear;
+  }
+  .btn:hover, .ctabtn:hover {
+    background-color: #000000;
+    cursor: pointer;
+  }
 }
 
 /* *COMMON STYLE START */
@@ -126,10 +133,10 @@ header .navbar .cart {
   height: 150px;
 }
 @media (min-width: 1280px) {
-.trusted-image .badge {
-  width: 200px;
-  height: 200px;
-}
+  .trusted-image .badge {
+    width: 200px;
+    height: 200px;
+  }
 }
 /* *TRUSTED SELLER END */
 
